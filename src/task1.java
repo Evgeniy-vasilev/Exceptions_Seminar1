@@ -9,7 +9,7 @@ public class task1 {
     // ArithmeticException
     public static int div(int a, int b) {
         if (b == 0) {
-            throw new ArithmeticException("На ноль делить нельзя");
+            throw new ArithmeticException("На ноль делить нельзя!");
         }
         return a / b;
     }

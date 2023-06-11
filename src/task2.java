@@ -13,7 +13,7 @@ public class task2 {
         int[] c = new int[a.length];
 
         if (a.length != b.length) {
-            throw new RuntimeException("Массивы разной длины");
+            throw new RuntimeException("Массивы разной длины!");
         } else {
             for (int i = 0; i < a.length; i++) {
                 c[i] = a[i] - b[i];
