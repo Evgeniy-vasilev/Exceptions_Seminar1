@@ -12,7 +12,7 @@ public class task2 {
     public static int[] arrays(int[] a, int[] b) {
         int[] c = new int[a.length];
 
-        if (a.length > b.length || a.length < b.length) {
+        if (a.length != b.length) {
             throw new RuntimeException("Массивы разной длины");
         } else {
             for (int i = 0; i < a.length; i++) {
